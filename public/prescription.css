@@ -1,0 +1,290 @@
+body {
+  color: #6F8BA4;
+  margin-top: 20px;
+}
+
+.section {
+  padding: 100px 0;
+  position: relative;
+}
+
+.gray-bg {
+  background-color: #f5f5f5;
+}
+
+img {
+  max-width: 100%;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+/* About Me 
+---------------------*/
+.about-text h3 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+
+@media (max-width: 767px) {
+  .about-text h3 {
+    font-size: 35px;
+  }
+}
+
+.about-text h6 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 767px) {
+  .about-text h6 {
+    font-size: 18px;
+  }
+}
+
+.about-text p {
+  font-size: 18px;
+  max-width: 450px;
+}
+
+.about-text p mark {
+  font-weight: 600;
+  color: #20247b;
+}
+
+.about-list {
+  padding-top: 10px;
+}
+
+.about-list .media {
+  padding: 5px 0;
+}
+
+.about-list label {
+  color: #20247b;
+  font-weight: 600;
+  width: 88px;
+  margin: 0;
+  position: relative;
+}
+
+.about-list label:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 11px;
+  width: 1px;
+  height: 12px;
+  background: #20247b;
+  -moz-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+  margin: auto;
+  opacity: 0.5;
+}
+
+.about-list p {
+  margin: 0;
+  font-size: 15px;
+}
+
+@media (max-width: 991px) {
+  .about-avatar {
+    margin-top: 30px;
+  }
+}
+
+.about-section .counter {
+  padding: 22px 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+}
+
+.about-section .counter .count-data {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about-section .counter .count {
+  font-weight: 700;
+  color: #20247b;
+  margin: 0 0 5px;
+}
+
+.about-section .counter p {
+  font-weight: 600;
+  margin: 0;
+}
+
+mark {
+  background-image: linear-gradient(rgba(252, 83, 86, 0.6), rgba(252, 83, 86, 0.6));
+  background-size: 100% 3px;
+  background-repeat: no-repeat;
+  background-position: 0 bottom;
+  background-color: transparent;
+  padding: 0;
+  color: currentColor;
+}
+
+.theme-color {
+  color: #fc5356;
+}
+
+.dark-color {
+  color: #20247b;
+}
+
+
+
+
+
+
+#image{
+  height: 60%;
+  width: 60%;
+}
+
+  img{
+    margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    
+  }
+  .item{
+    margin:4px;
+  }
+    nav {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: sticky;
+      width: 100%;
+      top: 0;
+      height: 10vh;
+      z-index: 1;
+      background-color: #fff;
+    }
+  
+    nav a img {
+      height: 80px;
+    }
+  
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .nav-menu ul {
+      display: flex;
+      align-items: center;
+      margin-right: 100px;
+      list-style: none;
+      column-gap: 50px;
+    }
+  
+    .nav-menu ul .menu {
+      display: flex;
+      column-gap: 20px;
+      padding: 10px 20px;
+      border-radius: 10px;
+      background-color: #41cec6;
+    }
+  
+    a {
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  
+    .menu a {
+      color: #fff;
+      cursor: pointer;
+    }
+  
+    ul li a:hover {
+      color: #41cec6;
+    }
+  
+    .menu a:hover {
+      color: black;
+    }
+  
+    .line {
+      background-color: #fff;
+      min-width: 3px;
+      height: auto;
+    }
+  
+    /* side navigation */
+    #nav-bar {
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      font-size: 30px;
+      position: fixed;
+      right: 30px;
+      top: 15px;
+      border-radius: 50%;
+      z-index: 2;
+      cursor: pointer;
+      display: none;
+    }
+  
+    #nav-bar i {
+      background-color: #41cec6;
+      padding: 10px 15px;
+      border-radius: 50%;
+    }
+  
+    #sideNav {
+      width: 250px;
+      height: 100vh;
+      position: fixed;
+      right: -250px;
+      top: 0;
+      background: #009688;
+      z-index: 2;
+      transition: 0.5s;
+    }
+  
+    #sideNav ul li {
+      margin: 50px 20px;
+      list-style: none;
+    }
+  
+    #sideNav ul li a {
+      text-decoration: none;
+      color: #fff;
+    }
+  
+    #sideNav ul li a:hover {
+      color: #11171d;
+    }
+  
+    /* responsive */
+  
+    @media screen and (max-width: 1440px) {
+      .nav-menu ul {
+        display: none;
+      }
+  
+      #nav-bar {
+        display: block;
+      }
+    }

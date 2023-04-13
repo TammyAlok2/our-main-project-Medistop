@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Appointment</title>
+</head>
+<link rel="stylesheet" href="appoint.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<body>
+
+<nav>
+    <a href="#home"><img src="creop.png" alt="logo.png" /></a>
+    <div class="nav-menu">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/schemes">schemes</a></li>
+             <li><a href="/prescription">Your Data</a></li>
+            <li><a href="/appointment">Appointment</a></li>
+
+
+        </ul>
+    </div>
+</nav>
+<!-- side navigation -->
+<div id="sideNav">
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/schemes">schemes</a></li>
+        <li><a href="/prescription">Your Data</a></li>
+            <li><a href="/appointment">Appointment</a></li>
+
+        </ul>
+    </nav>
+</div>
+<div id="nav-bar">
+    <i class="fa-solid fa-bars" id="menu-bar"></i>
+</div>
+
+
+
+
+    <div class="container">
+
+        <div class="title">Appointment Form</div>
+
+        <div class="content">
+
+            <form action="/appoint" method="post">
+
+                <div class="user-details">
+
+                    <div class="input-box">
+
+                        <span class="details">Full Name</span>
+
+                        <input type="text" placeholder="Enter your name" required name="name">
+
+                    </div>
+
+                    <div class="input-box">
+
+                        <span class="details">Age</span>
+                        <input type="number" placeholder="Enter your age" required >
+
+                    </div>
+
+                    <div class="input-box">
+
+                        <span class="details">Select Time Slot (in hours)</span>
+
+                        <input type="time" placeholder="" required name="time">
+
+                    </div>
+
+                    <div class="input-box">
+
+                        <span class="details">Phone Number</span>
+
+                        <input type="text" placeholder="Enter your number" required name="number">
+
+                    </div>
+
+                    <div class="input-box">
+
+                        <span class="details">Appointment Type</span>
+
+                        <input type="text" placeholder="Enter Appointment Type" required>
+
+                    </div>
+
+                    <div class="input-box">
+
+                        <span class="details">Choose Date</span>
+
+                        <input type="date" placeholder="" required name="date">
+
+                    </div>
+
+                </div>
+
+                <div class="gender-details">
+
+                    <span class="gender-title">Gender</span>
+
+                    <div class="category">
+
+                        <label for="dot-1">
+
+                           
+                            <input type="radio" value="m" name="radio">
+
+                            <span class="gender">Male</span>
+
+                        </label>
+
+                        <label for="dot-2">
+
+                            <input type="radio" value="f" name="radio">
+
+                            <span class="gender">Female</span>
+
+                        </label>
+
+                        <label for="dot-3">
+                        <input type="radio" value="O" name="radio">
+                
+                        <span class="gender">Prefer not to say</span>
+
+                        </label>
+
+                    </div>
+
+                </div>
+
+                <div class="button">
+                    <!-- <input type="submit" value="Register" id="button">
+                    </form> -->
+                    <button type="submit" value="Register" id="button">Register</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="scheme.js"></script>
+</html>
+<!--<img src="https://cdn.vectorstock.com/i/preview-1x/14/99/green-tick-marker-checkmark-circle-icon-vector-22691499.webp"
+    alt="" id="image">
+<div id="alert"> <b>Submitted Successfully</b>

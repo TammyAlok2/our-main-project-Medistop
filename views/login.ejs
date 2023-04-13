@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="fevicon icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="main">
+      <img src="creop.png" alt="logo.png">
+      <h1>Sign In</h1>
+      <form method="post" action="/login">
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          id="name"
+          value="<%=locals.email%>"
+        />
+        <input type="password" name="password" placeholder="Password"  id="passward"/>
+        <p class="error"><%= locals.message %></p>
+  <div class="checkbox"><input type="checkbox"><span>Remember me</span></div>
+  <button id="loginbtn" type="submit">Login</button>
+  <button id="guestbtn" onclick="lw()">Guest Login</button>
+  <button id="home" > <a href="/home">Back to Home</a></button>
+      
+      </form>
+    </div>
+    <script>
+      function lw(){
+        document.getElementById("name").value="medistop@gmail.com";
+        document.getElementById("passward").value = "medistop";
+      }
+    </script>
+  </body>
+</html>
