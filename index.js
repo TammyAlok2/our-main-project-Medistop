@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 import cookieParser from "cookie-parser";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
-const port = 3005;
+const port = 3000;
 const user =[]
 //mangodb connection
 mongoose
