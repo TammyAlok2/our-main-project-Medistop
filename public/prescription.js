@@ -1,4 +1,4 @@
-const username="Alok Tamrakar";
+const username="Avinash Aggrawal";
 
 const array = [
   {
@@ -74,8 +74,7 @@ const array = [
 //All the function related to the  
 var result=array.filter(obj=> obj.name == username);
 document.getElementById("name").innerHTML=result[0].name;
-document.getElementById("age").innerHTML=result[0].age[0];
-document.getElementById("gender").innerHTML=result[0].age[1];
+document.getElementById("age").innerHTML= "Age : "+ result[0].age[0] +  " " +" "+  (result[0].age[1]);
 document.getElementById("address").innerHTML=result[0].Address;
 document.getElementById("mobile").innerHTML=result[0].Mobile;
 document.getElementById("email").innerHTML=result[0].Email;
@@ -83,7 +82,7 @@ document.getElementById("email").innerHTML=result[0].Email;
 document.getElementById("sugar").innerHTML=result[0].summary[0];
 document.getElementById("Blood-group").innerHTML=result[0].summary[1];
 document.getElementById("BP").innerHTML=result[0].summary[2];
-document.getElementById("oxygen-level").innerHTML=result[0].summary[3];
+document.getElementById("oxygen-level").innerHTML=  result[0].summary[3];
 document.getElementById("height").innerHTML=result[0].summary[4];
 document.getElementById("weight").innerHTML=result[0].summary[5];
 document.getElementById("oxygen-level").innerHTML=result[0].summary[3];
@@ -112,9 +111,6 @@ nav_bar.onclick=function(){
     }
     else{
         sideNav.style.right="-250px"
-    }
-
-
-    
+  }   
 }
 

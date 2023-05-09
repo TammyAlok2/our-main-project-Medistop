@@ -5,7 +5,7 @@ import cookieParser from "cookie-parser";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 const port = 3000;
-const user =[]
+const user =[];
 //mangodb connection
 mongoose
   .connect('mongodb://127.0.0.1:27017/medistopdatabase', {
@@ -119,7 +119,6 @@ app.post("/register", async (req, res) => {
   });
   res.redirect("/");
 });
-
 app.get("/logout", (req, res) => {
   res.cookie("token", null, {
     httpOnly: true,
@@ -137,14 +136,15 @@ app.post('/appoint',(req,res)=>{
     patientTime:req.body.time,
     patientNumber:req.body.number,
   })
-  
   res.render('appoint')
 })
 app.get('/user',(req,res)=>{
   res.json(user)
 })
-
-
 app.listen(port, () => {
   console.log(`Server is working ${port}`);
 });
+
+ 
+
+
