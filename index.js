@@ -4,7 +4,8 @@ import mongoose from "mongoose";
 import cookieParser from "cookie-parser";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
-const port = 3000;
+const port = process.env.PORT || 3000;
+
 const user =[];
 //mangodb connection
 mongoose
@@ -141,6 +142,7 @@ app.post('/appoint',(req,res)=>{
 app.get('/user',(req,res)=>{
   res.json(user)
 })
+
 app.listen(port, () => {
   console.log(`Server is working ${port}`);
 });
