@@ -5,6 +5,8 @@ import cookieParser from "cookie-parser";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 const port = process.env.PORT || 3003;
+import dotenv from 'dotenv';
+dotenv.config();
 //passward = 3gEW0yLODDsWAoV1
 //const username = "Aloktam123";
 //const password = "<password>";
@@ -15,7 +17,8 @@ const port = process.env.PORT || 3003;
 const user =[];
 //mangodb connection
 //const urise = "mongodb+srv://amwaura89:password@cluster0.uim76jv.mongodb.net/?retryWrites=true&w=majority";
-const uri = "mongodb+srv://Aloktam1234:3gEW0yLODDsWAoV1@cluster0.lhpfmkl.mongodb.net/?retryWrites=true&w=majority";
+const uri = process.env.MANGO_URI ||  "mongodb+srv://Aloktam1234:3gEW0yLODDsWAoV1@cluster0.lhpfmkl.mongodb.net/?retryWrites=true&w=majority";
+
 
 mongoose.set('strictQuery', false);
 async function connect(){
