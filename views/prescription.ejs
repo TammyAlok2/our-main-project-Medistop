@@ -12,48 +12,7 @@
 </head>
 <body>
 
-<!--navbar-->
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Serif+Pro&display=swap"
-        rel="stylesheet" />
-      
-      <link rel="shortcut icon" href="fevicon icon.ico" type="image/x-icon" />
-      <link rel="stylesheet" href="prescription.css" />
-      </head>
-      
-      <body>
-        <!-- navigation -->
-        <nav>
-          <a href="#home"><img src="creop.png" alt="logo.png" /></a>
-          <div class="nav-menu">
-            <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/schemes">schemes</a></li>
-          <li><a href="/prescription">Your Data</a></li>
-            <li><a href="/appointment">Appointment</a></li>
-              <li id="logOut"><a href="/home">Log Out</a></li>
-      
-      
-            </ul>
-          </div>
-        </nav>
-        <!-- side navigation -->
-        <div id="sideNav">
-          <nav>
-          
-            <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/schemes">schemes</a></li>
-              <li><a href="/prescription">Your Data</a></li>
-              <li><a href="/appointment">Appointment</a></li>
-              <li id="logOut"><a href="/home">Log Out</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div id="nav-bar">
-          <i class="fa-solid fa-bars" id="menu-bar"></i>
-        </div>
+  <%- include('header') %>
 
 <section class="section about-section gray-bg" id="about">
   <div class="container">
@@ -188,14 +147,10 @@
   </div>
 </section>
 
-
-
-
-
   <!--prescribed medicine -->
 
 
-
+<script src="home"></script>
 <script src="prescription.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
