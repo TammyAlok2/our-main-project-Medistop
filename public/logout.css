@@ -458,3 +458,66 @@ ul li a:hover {
       padding: 2px;
       color: aliceblue;
     }
+  }
+  @media screen and (max-width:1000px) {
+
+    .left-section h2 {
+font-size: 15px;
+
+    }
+    .left-section h1 {
+      font-size: 25px;
+      margin-top: 1.5rem;
+      color: brown;
+          }
+
+          .left-section h2 {
+            font-size: 20px;
+            color: brown;
+            margin-top: -3rem;
+                }
+    .left-section p{
+      font-size: 10px;
+      margin-top: -1rem;
+      text-transform: capitalize;
+      font-weight: bolder;
+      color: #242424;
+      font-size:large;
+    
+    } 
+    .box-container .heading{
+      margin-top: -5rem;
+    }
+
+   .right-sec img{
+height: 0px;
+width: 0px;
+font-size: 2px;
+    }
+
+    .left-section{
+      margin: 2px;
+      padding: auto;
+      background-color: rgb(165 243 252);
+    }
+    .left-section .btn{
+      font-size: small;
+      margin-top: 20rem;
+    }
+
+    .left-sec h1{
+width:20rem;
+font-size: 1.5rem;
+    }
+    .left-sec h2{
+      margin-top: 2rem;
+          }
+         
+          button .appointment{
+            margin-top: 8rem;
+          }
+    .right-sec img{
+      font-size: 2px;
+    }
+  }
+
