@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 import cookieParser from "cookie-parser";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
-const port = process.env.PORT || 3003;
+const port = process.env.PORT || 3008;
 import dotenv from 'dotenv';
 dotenv.config();
 //passward = 3gEW0yLODDsWAoV1
