@@ -155,19 +155,21 @@ ul li a:hover {
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-
+  font-size: 20px;
+font-weight: bolder;
 }
 
 .table-item table thead {
   background-color: #15b6c5;
   text-align: center;
   border: none;
-
+font-weight: 400;
 
 }
 
 table th {
   border: 3px solid black;
+  font-size: larger;
 }
 
 table tbody td {
