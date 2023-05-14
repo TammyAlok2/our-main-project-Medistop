@@ -1,4 +1,7 @@
-const username="Avinash Aggrawal";
+const username="pradeep singh";
+
+
+
 
 const array = [
   {
@@ -8,7 +11,7 @@ const array = [
     "Address":"Mangawan Basti Dist.Rewa",
     "Mobile":"9644905810",
     "Email":"aloktamrakar2@gmail.com",
-    "summary":["100","A","100/80vh","95","160 CM","70 KG"],
+    "summary":["1100","A","100/80vh","95","160 CM","70 KG"],
   
     "prescription": " Hello alok hope you are fine your health is good make sure to take the medicine time to time and do not not forget any thing",
     "diets":["milk","bread","sprouts"],
@@ -27,11 +30,11 @@ const array = [
   },
   {
     "name": "pradeep singh",
-    "age":["19","Male"],
+    "age":["20","Male"],
     "Address":"Mangawan Basti Dist.Rewa",
     "Mobile":"9644905810",
     "Email":"aloktamrakar2@gmail.com",
-    "summary":["100","A","100/80vh","95" ,"160 CM","70 KG"],
+    "summary":["80","A","100/80vh","95" ,"160 CM","70 KG"],
     "prescription": " Hello alok hope you are fine your health is good make sure to take the medicine time to time and do not not forget any thing",
     "diets":["milk","bread","sprouts"],
     "images":["milk.jpg","sprouts.jpg","bread.jpg"],
@@ -96,24 +99,4 @@ console.log((result[0].prescription));
 console.log((result[0].diets));
 console.log((result[0].images));
 
-let nav_bar = document.getElementById('nav-bar');
-let sideNav = document.getElementById('sideNav')
-let menu = document.getElementById('menu-bar')
-
- sideNav.style.right="-250px";   
-
-
-nav_bar.onclick=function(){
-    if(sideNav.style.right == "-250px")
-    {
-        sideNav.style.right = "0px";
-
-    }
-    else{
-        sideNav.style.right="-250px"
-    }
-
-
-    
-}
 

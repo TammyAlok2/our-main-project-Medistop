@@ -15,6 +15,7 @@ dotenv.config();
 //const uris =  `mongodb+srv://${username}:${password}@${cluster}.mongodb.net/${dbname}?retryWrites=true&w=majority`;
 //const uri = "mongodb+srv://Aloktam123:QxBiftJl36u85JkT@cluster0.5vq9abp.mongodb.net/?retryWrites=true&w=majority";
 const user =[];
+const userData = [];
 //mangodb connection
 //const urise = "mongodb+srv://amwaura89:password@cluster0.uim76jv.mongodb.net/?retryWrites=true&w=majority";
 const uri = process.env.MANGO_URI ||  "mongodb+srv://Aloktam1234:3gEW0yLODDsWAoV1@cluster0.lhpfmkl.mongodb.net/?retryWrites=true&w=majority";
@@ -158,11 +159,28 @@ app.post('/appoint',(req,res)=>{
     patientdate:req.body.date,
     patientTime:req.body.time,
     patientNumber:req.body.number,
+    patientState:req.body.state,
+    patientCity:req.body.city,
+    patientHospital:req.body.hospital,
+  
   })
   res.render('appoint')
 })
 app.get('/user',(req,res)=>{
   res.json(user)
+})
+
+app.post('/userData',(req,res)=>{
+  userData.push({
+    name:req.body.name,
+    fatherName:req.body.fatherName,
+    phoneNum:req.body.phone,
+BirthDate:req.body.birthDate,
+  })
+res.redirect('/');
+  })
+app.get('/userData',(req,res)=>{
+  res.json(userData);
 })
 
 app.listen(port, () => {

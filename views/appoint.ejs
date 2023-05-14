@@ -109,15 +109,15 @@
                     <div class="input-box">
                         <span class="details">Choose State and city </span>
                         <div class="select">
-                        <select onchange="print_city('state', this.selectedIndex);" id="sts" name ="stt" class="form-control" required></select>
-                        <select id ="state" class="form-control" required aria-placeholder="select city"></select>
+                        <select onchange="print_city('state', this.selectedIndex);" id="sts" name ="state" class="form-control" required></select>
+                        <select id ="state" class="form-control" required aria-placeholder="select city" name="city"></select>
                         <script language="javascript">print_state("sts");</script>
                         </div>
                     </div>
                 </div>
                 <div class="input-box">
                     <span class="details">Select Hospital</span>
-<select name="hospital" id="hospital" class="hospital">
+<select id="hospital" class="hospital" name="hospital" value="hospital" required >
     <option value="" selected>Choose hospital</option>
     <option value="">Birla Hospital</option>
     <option value="">Rewa Hospital and research center</option>

@@ -12,25 +12,25 @@
     <section class="container">
       <header>Registration Form </header><br>
       <h2>Personal Information</h2>
-      <form action="#" class="form">
+      <form action="/userData" class="form" method="post">
         <div class="input-box">
           <label>Full Name</label>
-          <input type="text" placeholder="Enter full name" required />
+          <input type="text" placeholder="Enter full name" required name="name" />
         </div>
 
         <div class="input-box">
           <label>Father Name</label>
-          <input type="text" placeholder="Enter Father name" required />
+          <input type="text" placeholder="Enter Father name" required name="fatherName" />
         </div>
 
         <div class="column">
           <div class="input-box">
             <label>Phone Number</label>
-            <input type="number" placeholder="Enter phone number" required />
+            <input type="number" placeholder="Enter phone number" required name="phone" />
           </div>
           <div class="input-box">
             <label>Birth Date</label>
-            <input type="date" placeholder="Enter birth date" required />
+            <input type="date" placeholder="Enter birth date" required  name="birthDate"/>
           </div>
         </div>
         <div class="gender-box">
@@ -93,7 +93,7 @@
             <input type="number" placeholder="Enter postal code" required />
           </div>
         </div>
-        <button><a href="/">Submit</a></button>
+        <button type="submit">Submit</button>
       </form>
     </section>
   </body>
