@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
 
 
-
+<script src="cities.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Appointment</title>
 </head>
@@ -105,6 +105,28 @@
 
                     </div>
 
+
+                    <div class="input-box">
+                        <span class="details">Choose State and city </span>
+                        <div class="select">
+                        <select onchange="print_city('state', this.selectedIndex);" id="sts" name ="stt" class="form-control" required></select>
+                        <select id ="state" class="form-control" required aria-placeholder="select city"></select>
+                        <script language="javascript">print_state("sts");</script>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <span class="details">Select Hospital</span>
+<select name="hospital" id="hospital" class="hospital">
+    <option value="" selected>Choose hospital</option>
+    <option value="">Birla Hospital</option>
+    <option value="">Rewa Hospital and research center</option>
+    <option value="">Vaishali Hospital and research center </option>
+<option value="">Shyam Shah Hospital and research center</option>
+<option value="">Satna Hopital and research center</option>
+<option value="">Vindhya Hospital and research center</option>
+</select>
+                   
                 </div>
 
                 <div class="gender-details">

@@ -111,6 +111,9 @@ nav_bar.onclick=function(){
     }
     else{
         sideNav.style.right="-250px"
-  }   
+    }
+
+
+    
 }
 

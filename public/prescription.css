@@ -279,7 +279,7 @@ mark {
   
     /* responsive */
   
-    @media screen and (max-width: 1440px) {
+    @media screen and (max-width: 1400px) {
       .nav-menu ul {
         display: none;
       }
