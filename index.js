@@ -138,7 +138,7 @@ app.post("/register", async (req, res) => {
 
   res.cookie("token", token, {
     httpOnly: true,
-    expires: new Date(Date.now() + 60 * 1000),
+    expires: new Date(Date.now() +60 * 1000),
   });
   res.redirect("/information");
 });
@@ -148,7 +148,7 @@ app.get("/logout", (req, res) => {
     httpOnly: true,
     expires: new Date(Date.now()),
   });
-  res.redirect("/");
+  res.redirect("/home");
 });
 app.get('/signout',(req,res)=>{
   res.render('logout',{name:req.body.name})
@@ -162,7 +162,6 @@ app.post('/appoint',(req,res)=>{
     patientState:req.body.state,
     patientCity:req.body.city,
     patientHospital:req.body.hospital,
-  
   })
   res.render('appoint')
 })
