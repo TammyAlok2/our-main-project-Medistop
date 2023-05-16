@@ -6,24 +6,25 @@
     <meta charset="UTF-8">
 
 
-
+<script src="cities.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Appointment</title>
 </head>
+<link rel="stylesheet" href="header.css">
 <link rel="stylesheet" href="appoint.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 <body>
 
 <nav>
-    <a href="#home"><img src="creop.png" alt="logo.png" /></a>
+    <a href="/"><img src="creop.png" alt="logo.png" /></a>
     <div class="nav-menu">
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/schemes">schemes</a></li>
              <li><a href="/prescription">Your Data</a></li>
             <li><a href="/appointment">Appointment</a></li>
-
+            <li><a href="/logout">Logout</a></li>
 
         </ul>
     </div>
@@ -36,6 +37,7 @@
             <li><a href="/schemes">schemes</a></li>
         <li><a href="/prescription">Your Data</a></li>
             <li><a href="/appointment">Appointment</a></li>
+            <li><a href="/logout">Logout</a></li>
 
         </ul>
     </nav>
@@ -104,6 +106,28 @@
 
                     </div>
 
+
+                    <div class="input-box">
+                        <span class="details">Choose State and city </span>
+                        <div class="select">
+                        <select onchange="print_city('state', this.selectedIndex);" id="sts" name ="state" class="form-control" required></select>
+                        <select id ="state" class="form-control" required aria-placeholder="select city" name="city"></select>
+                        <script language="javascript">print_state("sts");</script>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <span class="details">Select Hospital</span>
+<select id="hospital" class="hospital" name="hospital" value="hospital" required >
+    <option value="" selected>Choose hospital</option>
+    <option value="">Birla Hospital</option>
+    <option value="">Rewa Hospital and research center</option>
+    <option value="">Vaishali Hospital and research center </option>
+<option value="">Shyam Shah Hospital and research center</option>
+<option value="">Satna Hopital and research center</option>
+<option value="">Vindhya Hospital and research center</option>
+</select>
+                   
                 </div>
 
                 <div class="gender-details">

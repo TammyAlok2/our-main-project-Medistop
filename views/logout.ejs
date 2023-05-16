@@ -21,175 +21,543 @@
           rel="stylesheet" />
         
         <link rel="shortcut icon" href="fevicon icon.ico" type="image/x-icon" />
-        <link rel="stylesheet" href="./style.css" />
+
+ <!-- Font Awesome -->
+ <link
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+ rel="stylesheet"
+ />
+ <!-- Google Fonts -->
+ 
+ <!-- MDB -->
+ <link
+ href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.0/mdb.min.css"
+ rel="stylesheet"
+ />
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="logout.css">
+
         </head>
         
-        <body>
-          <!-- navigation -->
-          <nav>
-            <a href="#home"><img src="creop.png" alt="logo.png" /></a>
-            <div class="nav-menu">
-              <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/schemes">schemes</a></li>
-                      <li><a href="/prescription">Your Data</a></li>
-                          <li><a href="/appointment">Appointment</a></li>
-                <li id="logOut"><a href="/home">Log Out</a></li>
-                
-        
-              </ul>
-            </div>
-          </nav>
-          <!-- side navigation -->
-          <div id="sideNav">
-            <nav>
-              <h1>HI <%= name %>
-              </h1>
-              <ul>
-                <li><a href="/">Home</a></li>
-                  <li><a href="/schemes">schemes</a></li>
-                  <li><a href="/prescription">Your Data</a></li>
-                  
-                <li id="logOut"><a href="/home">Log Out</a></li>
-              </ul>
-            </nav>
-          </div>
-          <div id="nav-bar">
-            <i class="fa-solid fa-bars" id="menu-bar"></i>
-          </div>
-        
-          <!-- main section one -->
-          <main class="one">
-            <div class="menu">
-              <h1>Welcome to Medistop </h1>
-              <h2> One stop for all medineeds</h2>
-              </div>
-            </div>
-          </main>
-        
-          <!--  section two -->
-          <section class="section-two">
-            <div class="textMsg">
-              <h1>TESTIMONIALS</h1>
-              <p>
-                A platform where any one can can store their reports , can take the appointment from the doctor.  <br />
-      
-              </p>
-            </div>
-        
-            <div class="maincards">
-              <div class="cards">
-                <div class="card">
-                  <div class="head">
-                    <div class="profile"><i class="fa-solid fa-user-group"></i></div>
-                    <h4>Aman Kumar</h4>
-                  </div>
-                  <div class="main">
-                    <p>
-                      We are team MediStop leaded by group of four enthusiast, who are charged, foucused and passionate<br />
-                      to develop a community to help people upgrade there life and feel the joy of leading a healthy life.
-                    </p>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="head">
-                    <div class="profile"><i class="fa-solid fa-user-group"></i></div>
-                    <h4>Aman Singh</h4>
-                  </div>
-                  <div class="main">
-                    <p>The user interface, functionality, design, smooth flow, appointmet system, history maintenance, etc. each and every
-                      feature is mind blowing, especially the scheme section kill it hard!
-                    </p>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="head">
-                    <div class="profile"><i class="fa-solid fa-user-group"></i></div>
-                    <h4>Anil Kewat</h4>
-                  </div>
-                  <div class="main">
-                    <p>I belong to economically unstable family. From last few months I am suffering from cancer, but dew to lack of money I
-                      was
-                      unable to have a treatment. Also, I searched for each and every schemes present out but none of them helped me. Then,
-                      one of my friend
-                      directed me to Medistop and by God Grace and I got a free Cancer Treatment Scheme by Central Govt. listed out there .
-                      Now my treatment is on progress
-                      and will always be thankful of Medistop.
-                    
-                    </p>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="head">
-                    <div class="profile"><i class="fa-solid fa-user-group"></i><h4>Rahul Sharma</h4>
-                    </div>
-                  </div>
-                  <div class="main">
-                      <p>I belong to economically unstable family. From last few months I am suffering from cancer, but dew to lack of money I
-                        was
-                        unable to have a treatment. Also, I searched for each and every schemes present out but none of them helped me. Then,
-                        one of my friend
-                        directed me to Medistop and by God Grace and I got a free Cancer Treatment Scheme by Central Govt. listed out there .
-                        Now my treatment is on progress
-                        and will always be thankful of Medistop.
-                      
-                      </p>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="head">
-                    <div class="profile">
-                      <i class="fa-solid fa-user-group"></i>
-                        <h4>DEV AHUJA</h4>
-                    </div>
-                  </div>
-                  <div class="main"><p>I'm really very greatful of MediStop community for creating such a wonderful website that helps millions of
-                    peoples help there loved ones by providing them prosperous life.
-                  </p></div>
-                </div>
-                <div class="card">
-                  <div class="head">
-                    <div class="profile">
-                      <i class="fa-solid fa-user-group"></i>
-                      <h4>Farhan Akhtar</h4>
-                    </div>
-                  </div>
-                  <div class="main">
-                    <p>Last month, I experienced a little bit ache in my stomach, when I filled all the details in Medistop , it suggested
-                      me
-                      to reduce the usage of oil. After following all the recommendation , now I'm totally active and healthy . I thank
-                      Medistop
-                      for treating me without taking any charges.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        
-          <!-- footer -->
-        
-          <!-- footer -->
-          <footer>
-            <div class="main-footer">
-              <div class="logo"><img src="fevicon.ico" alt=""></div>
-              <div class="info">
-                <h2>Get in Touch</h2>
-                <p>Register Now ! Protect Your Life</p>
-                <ul>
-                  <div class="social">
-                    <li><i class="fa-brands fa-linkedin-in"></i></li>
-                    <li><i class="fa-brands fa-facebook"></i></li>
-                    <li><i class="fa-brands fa-twitter"></i></li>
-                  </div>
-                </ul>
-              </div>
-          
-          
-          
-              <h3 id="policy">ALL Right Reserved &copy; Medistop</h3>
-          </footer>
+        <body>          
+        <!--Navbar section-->
 
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+
+
+<!-- font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Serif+Pro&display=swap"
+    rel="stylesheet" />
+  
+  <link rel="shortcut icon" href="fevicon icon.ico" type="image/x-icon" />
+  </head>
+  
+  <body>
+    <!-- navigation -->
+    <nav>
+      <a href="#home"><img src="creop.png" alt="logo.png" /></a>
+      <div class="nav-menu">
+        <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/schemes">schemes</a></li>
+                <li><a href="/prescription">Your Data</a></li>
+                    <li><a href="/appointment">Appointment</a></li>
+          <li id="logOut"><a href="/logout">Log Out</a></li>
+          
+  
+        </ul>
+      </div>
+    </nav>
+    <!-- side navigation -->
+    <div id="sideNav">
+      <nav>
+        
+        <ul>
+          <li><h2>HI <%= name %>
+          </h2></li>
+          <li><a href="/">Home</a></li>
+            <li><a href="/schemes">schemes</a></li>
+            <li><a href="/prescription">Your Data</a></li>
+            <li><a href="/appointment">Appointment</a></li>
+          <li id="logOut"><a href="/home">Log Out</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="nav-bar">
+      <i class="fa-solid fa-bars" id="menu-bar"></i>
+    </div>
+
+
+
+
+<header>
+<div class="mainheader">
+<div class="logo">
+
+</div>
+
+
+
+<div class="menubtn">
+<button><a href="/">Help</a> </button>
+</div>
+</div>
+
+
+<main>
+<section class="left-sec">
+  <div class="name" style="font-size: 50px; color: brown;"> Hello <%= name %></div>
+<h2> Welcome to the Medistop </h2>
+<h1>  one stop for all medineeds</h1>
+<p>We are here for your care 24/7. Any help just call us.</p>
+<button class="appointment">
+<a href="/appointment">Make an appointment</a>
+</button>
+</section>
+
+<section class="right-sec">
+<figure>
+
+<img src="Medicine.gif">
+</figure>
+</section>
+</main>
+</header>
+
+<!--icons section started -->
+<section class="icons">
+
+<section class="icons-container">
+
+<div class="icons">
+  <i class="fa-solid fa-user-doctor"></i>
+  <h3>140+</h3>
+  <p>Doctor at work</p>
+</div>
+
+<div class="icons">
+  <i class="fa-solid fa-hospital"></i>
+  <h3>140+</h3>
+  <p>Hospitals connected</p>
+</div>
+<div class="icons">
+  <i class="fa fa-users"></i>
+  <h3>1400+</h3>
+  <p>Satisified Patients</p>
+</div>
+</section>   
+</section>
+
+<!--services section started -->
+<section class="services" id="service">
+<h1 class="heading">Our <span>SERVICES</span></h1>
+<div class="box-container">
+<div class="box"> 
+  <i class="fas fa-notes-medical"></i>
+  <h3>Diet Planner</h3> 
+  <p>Using Medistop you can find easy solution of your problems . you have to give the symptoms of your disease we will provide you best diet .</p>
+  <a href="/appointment" class="btn">Learn <span class="fas fa-chevron-right"></span></a> 
+</div>
+
+<div class="box">  
+  <i class="fas fa-notes-medical"></i>
+  <h3>Appointement Facility</h3> 
+  <p>Using Medistop you can easily appoint any doctor from the city from home . there is no need to physically preset to take the appointment</p>
+  <a href="/appointment" class="btn">Learn <span class="fas fa-chevron-right"></span></a> 
+</div>
+
+<div class="box">  
+  <i class="fas fa-notes-medical"></i>
+  <h3>Latest Schemes</h3> 
+  <p>Using Medistop you can find the best treatment of your disease for free . In our platform all the goverment and private schemes are listed. </p>
+  <a href="/schemes" class="btn">Learn <span class="fas fa-chevron-right"></span></a> 
+</div>
+
+<div class="box">  
+  <i class="fas fa-notes-medical"></i>
+  <h3>Your Record</h3> 
+  <p>Using Medistop you can store your medical data with security. so that you can easily access it from anywhere.</p>
+  <a href="/prescription" class="btn">Learn <span class="fas fa-chevron-right"></span></a> 
+</div>
+</div>
+</section>
+<br><br><hr>
+<!--about us section started-->
+<section class="about" id="about">
+<div class="box-container">
+  <h1 class="heading"> <span>About Us</span></h1>
+  <br><br><br>
+
+  <main>
+      <section class="left-section" >
+       <h2> Welcome to the Medistop </h2>
+       <h1> We are helping people </h1>
+       <br>
+       <p>We are providing help to all the people who require help Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tempora reiciendis consequatur, omnis aperiam laborum, nisi maxime dolores numquam aut suscipit eum beatae magnam? Dolore, ipsam expedita, consequatur beatae reprehenderit eaque totam dignissimos voluptatibus cumque, perspiciatis architecto. Asperiores facere incidunt, itaque repellat eius sit error beatae distinctio dolor excepturi delectus!</p>
+       <button class="btn" id="btn"> <a href="#">  Learn more</a>
+    
+       </button>
+      </section>
+    
+      <section class="right-sec">
+       <figure>
+        
+        <img src="about.gif" class="about">
+       </figure>
+      </section>
+     </main>
+
+</div>
+</section>
+<br><br>
+<hr>
+
+
+<!-- COnnected Hospitals page -->
+<section class="hospital" id="hospital">
+<div class="box-container">
+<h1 class="heading"><span> Connected Hospitals</span></h1>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="sanjay.png" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Sanjay Gandhi Hospital </h2>
+        <h2 style="text-align: center;"> Rewa</h2>
+     
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="birla.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+          <h2>Birla Institute of Medical </h2>
+        <h2>Satna</h2>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="AIIMSDEL.jpg" alt="John" style="width:100%">
+      <div class="container">
+          <h2>All Indian Institute of Science </h2>
+        <h2 style="text-align: center;"> Delhi</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="ram.jpeg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Ram Hospital and Research </h2>
+        <h2 style="text-align: center;"> Rewa</h2>
+     
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="Rajeev.jpeg" alt="Mike" style="width:100%">
+      <div class="container">
+          <h2>Rajeev Institute of Medical </h2>
+        <h2 style="text-align: center;"> Jabalpur</h2>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="max.jpeg" alt="John" style="width:100%">
+      <div class="container">
+          <h2>Max Hospital Of Medical Science </h2>
+        <h2 style="text-align: center;"> Jabalpur</h2>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<hr>
+
+<h1 class="heading"><span>Testinomials</span></h1>
+<!--Customer reveiew-->
+<section class="gradient-custom">
+<div class="container my-5 py-5">
+<div class="row d-flex justify-content-center">
+<div class="col-md-12">
+  <div class="text-center mb-4 pb-2">
+    <i class="fas fa-quote-left fa-3x text-white"></i>
+  </div>
+
+  <div class="card">
+    <div class="card-body px-4 py-5">
+      <!-- Carousel wrapper -->
+      <div id="carouselDarkVariant" class="carousel slide carousel-dark" data-mdb-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators mb-0">
+          <button data-mdb-target="#carouselDarkVariant" data-mdb-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button data-mdb-target="#carouselDarkVariant" data-mdb-slide-to="1"
+            aria-label="Slide 1"></button>
+          <button data-mdb-target="#carouselDarkVariant" data-mdb-slide-to="2"
+            aria-label="Slide 1"></button>
+        </div>
+
+        <!-- Inner -->
+        <div class="carousel-inner pb-5">
+          <!-- Single item -->
+          <div class="carousel-item active">
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-10 col-xl-8">
+                <div class="row">
+                  <div class="col-lg-4 d-flex justify-content-center">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                      class="rounded-circle shadow-1 mb-4 mb-lg-0" alt="woman avatar" width="150"
+                      height="150" />
+                  </div>
+                  <div
+                    class="col-9 col-md-9 col-lg-7 col-xl-8 text-center text-lg-start mx-auto mx-lg-0">
+                    <h4 class="mb-4">Mamta Singh (Heart Patient)</h4>
+                    <p class="mb-0 pb-3">
+                      Hello , I'm a huge lover of chinese dishes and prefer to have them in dinner regularly, but few days ago I filled up all the details in 
+                      at Medistop and it recommends me to have cholestrol checkup and suprisingly I was found a huge victim of it. So thanking Medistop for helping me out.
+                      Few days back, I had a chest pain that was increasing day by day and I was avoiding it as it happens with me regularly. My family 
+                      suggested me to use Medistop to know if there is any disease. I got advise from the platform to have a heart checkup. And I suprisingly 
+                      I had first stage heart hole. I'm really greatful that I'm fit now due to Medistop.
+                    </p>
+                    <p> ⭐⭐⭐⭐⭐</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single item -->
+          <div class="carousel-item">
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-10 col-xl-8">
+                <div class="row">
+                  <div class="col-lg-4 d-flex justify-content-center">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                      class="rounded-circle shadow-1 mb-4 mb-lg-0" alt="woman avatar" width="150"
+                      height="150" />
+                  </div>
+                  <div
+                    class="col-9 col-md-9 col-lg-7 col-xl-8 text-center text-lg-start mx-auto mx-lg-0">
+                    <h4 class="mb-4">Anu Mehta (sugar-patient)</h4>
+                    <p class="mb-0 pb-3">
+                      I'm really very greatful of MediStop community for creating such a wonderful website that helps millions of
+                      peoples help there loved ones by providing them prosperous life.
+                      Last month, I experienced a little bit ache in my stomach, when I filled all the details in Medistop , it suggested me 
+                            to reduce the usage of oil. After following all the recommendation , now I'm totally active and healthy . I thank Medistop 
+                            for treating me without taking any charges.
+                    </p>
+                    <p> ⭐⭐⭐⭐⭐</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single item -->
+          <div class="carousel-item">
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-10 col-xl-8">
+                <div class="row">
+                  <div class="col-lg-4 d-flex justify-content-center">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                      class="rounded-circle shadow-1 mb-4 mb-lg-0" alt="woman avatar" width="150"
+                      height="150" />
+                  </div>
+                  <div
+                    class="col-9 col-md-9 col-lg-7 col-xl-8 text-center text-lg-start mx-auto mx-lg-0">
+                    <h4 class="mb-4">Anil Sharma (BP -Patient)</h4>
+                    <p class="mb-0 pb-3">
+                      I belong to economically unstable family. From last few months I am suffering from cancer, but dew to lack of money I was 
+                      unable to have a treatment. Also, I searched for each and every schemes present out but none of them helped me. Then, one of my friend 
+                      directed me to Medistop and by God Grace and I got a free Cancer Treatment Scheme by Central Govt. listed out there . Now my treatment is on progress
+                      and will always be thankful of Medistop.
+                    </p>
+                    <p> ⭐⭐⭐⭐⭐</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Inner -->
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselDarkVariant"
+          data-mdb-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-mdb-target="#carouselDarkVariant"
+          data-mdb-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Carousel wrapper -->
+    </div>
+  </div>
+
+  <div class="text-center mt-4 pt-2">
+    <i class="fas fa-quote-right fa-3x text-white"></i>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+<!--Footer section-->
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-white text-muted">
+<!-- Section: Social media -->
+<section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+<!-- Left -->
+<div class="me-5 d-none d-lg-block">
+<span>Get connected with us on social networks:</span>
+</div>
+<!-- Left -->
+
+<!-- Right -->
+<div>
+<a href="" class="me-4 link-secondary">
+  <i class="fab fa-facebook-f"></i>
+</a>
+<a href="" class="me-4 link-secondary">
+  <i class="fab fa-twitter"></i>
+</a>
+<a href="" class="me-4 link-secondary">
+  <i class="fab fa-google"></i>
+</a>
+<a href="" class="me-4 link-secondary">
+  <i class="fab fa-instagram"></i>
+</a>
+<a href="" class="me-4 link-secondary">
+  <i class="fab fa-linkedin"></i>
+</a>
+<a href="" class="me-4 link-secondary">
+  <i class="fab fa-github"></i>
+</a>
+</div>
+<!-- Right -->
+</section>
+<!-- Section: Social media -->
+
+<!-- Section: Links  -->
+<section class="">
+<div class="container text-center text-md-start mt-5">
+<!-- Grid row -->
+<div class="row mt-3">
+  <!-- Grid column -->
+  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+    <!-- Content -->
+    <h6 class="text-uppercase fw-bold mb-4">
+      <i class="fas fa-gem me-3 text-secondary"></i>
+    </h6>
+    <p>
+      Thanks for using Medistop Hope we help you to solve your problem
+    </p>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+    <!-- Links -->
+    <h6 class="text-uppercase fw-bold mb-4">
+      Services
+    </h6>
+    <p>
+      <a href="#about" class="text-reset">About</a>
+    </p>
+    <p>
+      <a href="/information" class="text-reset">Edit Data</a>
+    </p>
+    <p>
+      <a href="/schemes" class="text-reset">Scheme</a>
+    </p>
+    <p>
+      <a href="/prescription" class="text-reset">Your Data</a>
+    </p>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+    <!-- Links -->
+    <h6 class="text-uppercase fw-bold mb-4">
+      Useful links
+    </h6>
+    <p>
+      <a href="#hospital" class="text-reset">Connected Hospital</a>
+    </p>
+    <p>
+      <a href="#about" class="text-reset">About</a>
+    </p>
+    <p>
+      <a href="#service" class="text-reset">Service</a>
+    </p>
+    <p>
+      <a href="#!" class="text-reset">Help</a>
+    </p>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+    <!-- Links -->
+    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+    <p><i class="fas fa-home me-3 text-secondary"></i> Satna Dist.Satna (M.P)</p>
+    <p>
+      <i class="fas fa-envelope me-3 text-secondary"></i>
+      medistop@gmail.com
+    </p>
+    <p><i class="fas fa-phone me-3 text-secondary"></i> +919644905810</p>
+    <p><i class="fas fa-print me-3 text-secondary"></i> +9196644905810</p>
+  </div>
+  <!-- Grid column -->
+</div>
+<!-- Grid row -->
+</div>
+</section>
+<!-- Section: Links  -->
+
+<!-- Copyright -->
+<div class="flex-row p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+  <img src="medistop.png" alt="" class="col-md-4 col-lg-3 ">
+<span class="col-md-4 col-lg-7">© 2023 Copyright:</span>
+<a class="text-reset fw-bold" href="https://mdbootstrap.com/">Medistop.com</a>
+</div>
+<!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+
+<!-- MDB -->
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.0/mdb.min.js"
+></script>
     <script src="logout.js"></script>
   </body>
 </html>

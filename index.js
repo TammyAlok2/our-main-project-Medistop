@@ -4,16 +4,36 @@ import mongoose from "mongoose";
 import cookieParser from "cookie-parser";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
-const port = 3000;
-const user =[]
+const port = process.env.PORT || 3008;
+import dotenv from 'dotenv';
+dotenv.config();
+//passward = 3gEW0yLODDsWAoV1
+//const username = "Aloktam123";
+//const password = "<password>";
+//const cluster = "<cluster name>";
+//const dbname = "myFirstDatabase";
+//const uris =  `mongodb+srv://${username}:${password}@${cluster}.mongodb.net/${dbname}?retryWrites=true&w=majority`;
+//const uri = "mongodb+srv://Aloktam123:QxBiftJl36u85JkT@cluster0.5vq9abp.mongodb.net/?retryWrites=true&w=majority";
+const user =[];
+const userData = [];
 //mangodb connection
-mongoose
-  .connect('mongodb://127.0.0.1:27017/medistopdatabase', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-  })
-  .then(() => console.log('database connected'))  
-  .catch(e => console.log(e))
+//const urise = "mongodb+srv://amwaura89:password@cluster0.uim76jv.mongodb.net/?retryWrites=true&w=majority";
+const uri = process.env.MANGO_URI ||  "mongodb+srv://Aloktam1234:3gEW0yLODDsWAoV1@cluster0.lhpfmkl.mongodb.net/?retryWrites=true&w=majority";
+
+
+mongoose.set('strictQuery', false);
+async function connect(){
+    try {
+        await mongoose.connect(uri);
+        console.log("connected to MongoDB");
+    }
+    catch (error) {
+        console.log(error);
+    }
+}
+
+connect();
+ 
   
 
 const userSchema = new mongoose.Schema({
@@ -73,6 +93,9 @@ app.get("/schemes",(req,res)=>{
      app.get("/appointment",(req,res)=>{
       res.render('appoint')
     })
+    app.get('/information', (req,res) =>{
+      res.render('Information');
+    })
 
 
 app.post("/login", async (req, res) => {
@@ -115,9 +138,9 @@ app.post("/register", async (req, res) => {
 
   res.cookie("token", token, {
     httpOnly: true,
-    expires: new Date(Date.now() + 60 * 1000),
+    expires: new Date(Date.now() +60 * 1000),
   });
-  res.redirect("/");
+  res.redirect("/information");
 });
 
 app.get("/logout", (req, res) => {
@@ -125,7 +148,7 @@ app.get("/logout", (req, res) => {
     httpOnly: true,
     expires: new Date(Date.now()),
   });
-  res.redirect("/");
+  res.redirect("/home");
 });
 app.get('/signout',(req,res)=>{
   res.render('logout',{name:req.body.name})
@@ -136,15 +159,33 @@ app.post('/appoint',(req,res)=>{
     patientdate:req.body.date,
     patientTime:req.body.time,
     patientNumber:req.body.number,
+    patientState:req.body.state,
+    patientCity:req.body.city,
+    patientHospital:req.body.hospital,
   })
-  
   res.render('appoint')
 })
 app.get('/user',(req,res)=>{
   res.json(user)
 })
 
+app.post('/userData',(req,res)=>{
+  userData.push({
+    name:req.body.name,
+    fatherName:req.body.fatherName,
+    phoneNum:req.body.phone,
+BirthDate:req.body.birthDate,
+  })
+res.redirect('/');
+  })
+app.get('/userData',(req,res)=>{
+  res.json(userData);
+})
 
 app.listen(port, () => {
   console.log(`Server is working ${port}`);
 });
+
+ 
+
+
