@@ -19,8 +19,9 @@
           placeholder="Email"
           id="name"
           value="<%=locals.email%>"
+          required
         />
-        <input type="password" name="password" placeholder="Password"  id="passward"/>
+        <input type="password" name="password" placeholder="Password"  id="passward" required/>
         <p class="error"><%= locals.message %></p>
   <div class="checkbox"><input type="checkbox"><span>Remember me</span></div>
   <button id="loginbtn" type="submit">Login</button>
