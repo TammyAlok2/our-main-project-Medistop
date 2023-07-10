@@ -1,4 +1,4 @@
-# our-main-project-Medistop
+# MediStop - One Stop For All MediNeeds
 MediStop is One Stop Solution For All Your Medical Needs.
 MediStop is a web project that provides users with four main functionalities:-
   1. User Space to store all there medical doucuments, reports and all records.
