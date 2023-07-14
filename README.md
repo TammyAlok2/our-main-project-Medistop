@@ -1,7 +1,2 @@
 # MediStop - One Stop For All MediNeeds
-MediStop is One Stop Solution For All Your Medical Needs.
-MediStop is a web project that provides users with four main functionalities:-
-  1. User Space to store all there medical doucuments, reports and all records.
-  2. Doctor Appointment System using which anyone can book doctor in few clicks.
-  3. List of all ongoing schemes, funds and programs curated by various NGOs, government organizations and helping singles.
-  4. Diet Plan system that will tell user about changes and add-ons needed in their current diet.
+MediStop – One Stop For All MediNeeds is a healthcare tool developed by Alok Tamrakar & Avinash Agrawal for ease of patients and to enhance the their way of living. Patients can store all there past history like medical certificates, report, medicinal information and many more in our website without any worry of losing anything. MediStop also provide Appointment System using which patients can book the appointment with doctors with there own preferred time slot and day. Gone the time when we need to sit in long queues for our number to come, now you have MediStop to do it all. Also, MediStop lists all the schemes, programs, NGO’s motives, and many more at one place to help economically unhealthy users to get the treatment for free or in as low cost as possible. And the USP of MediStop is the Diet Suggestion Algorithm , using which patient can know best diet for them and the add-ons require in there current diet.
