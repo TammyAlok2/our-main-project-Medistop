@@ -161,9 +161,11 @@ app.post('/appoint',(req,res)=>{
     patientNumber:req.body.number,
     patientState:req.body.state,
     patientCity:req.body.city,
+
     patientHospital:req.body.hospital,
   })
   res.render('appoint')
+  
 })
 app.get('/user',(req,res)=>{
   res.json(user)
