@@ -162,6 +162,8 @@ app.post('/appoint',(req,res)=>{
     patientState:req.body.state,
     patientCity:req.body.city,
 
+
+    
     patientHospital:req.body.hospital,
   })
   res.render('appoint')
