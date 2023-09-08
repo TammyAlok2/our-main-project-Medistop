@@ -315,6 +315,7 @@ ul li a:hover {
       grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
       padding-top: 5rem;
       padding-bottom: 5rem;
+      margin-left: 2rem;
   }
   .icons-container .icons{
       background: #fff;
@@ -348,6 +349,7 @@ ul li a:hover {
       display: grid;
       gap: 2rem;
       grid-template-columns: repeat(auto-fit,minmax(27rem,1fr));
+      margin-left: 2rem;
   }
   .services .box-container .box{
       background: #fff;
@@ -376,9 +378,8 @@ ul li a:hover {
       font-size: 3.0rem;
       left: .4rem;
   }
-  .heading span{
-  color:rgb(56 189 248);
-  }
+  .heading span{}
+  
   .btn{
       display: inline-block;
       margin-top: 1rem;

@@ -12,7 +12,12 @@ font-family: 'Poppins', sans-serif;
 
 }
 
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
+}
 
 .container{
 
