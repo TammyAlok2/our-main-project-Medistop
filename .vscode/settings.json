@@ -1,0 +1,6 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/ede119ce-3342-4a9d-be8b-22edb3eed9c6/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/medistop-onestop",
+    "appService.deploySubpath": "."
+}
+
+
