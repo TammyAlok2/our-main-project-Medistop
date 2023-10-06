@@ -4,7 +4,7 @@ Medistop  is a website which is developed as part of **Future Ready Talent Inter
 
 **Project Link:** https://medistoprender.onrender.com/home
 
-**Project Demo Link:** https://youtu.be/3OJrbLbaUHs
+**Project Demo Link:** https://www.youtube.com/watch?v=3rT0mKtlDeQ
 
 
 
