@@ -1,59 +1,38 @@
-# Future Ready Talent Internship Project 📝
+# Medistop (One stop for all medineeds) 
+Medistop  is a website which is developed as part of **Future Ready Talent Internship**. 
+ MediStop – One Stop For All MediNeeds is a healthcare tool  for ease of patients and to enhance the their way of living. Patients can store all there past history like medical certificates, report, medicinal information and many more in our website without any worry of losing anything. MediStop also provide Appointment System using which patients can book the appointment with doctors with there own preferred time slot and day. Gone the time when we need to sit in long queues for our number to come, now you have MediStop to do it all. Also, MediStop lists all the schemes, programs, NGO’s motives, and many more at one place to help economically unhealthy users to get the treatment for free or in as low cost as possible. And the USP of MediStop is the Diet Suggestion Algorithm , using which patient can know best diet for them and the add-ons require in there current diet.
 
-## Project Name:
+**Project Link:** https://ashy-pond-08a39cc00.3.azurestaticapps.net
 
-### PortfoliAI: Your Virtual Portfolio Assistant 🤖
+**Project Demo Link:** https://youtu.be/3OJrbLbaUHs
 
-![PortfoliAI](./readme_images/portfoli-ai.png)
+## Key Features
 
-### Detailed explanation of the project:
+- **Appointment System :** We offer customized cleaning packages to cater to your unique requirements. From general cleaning to specialized services like carpet cleaning, window cleaning, and more, we ensure every nook and corner is thoroughly cleaned.
 
-https://github.com/ritwickrajmakhal/ritwickrajmakhal.github.io/assets/100060023/08642553-59aa-423b-88b1-c29c8dc586e3
+- **List of schemes :** Our team of cleaning specialists is highly skilled and experienced. They undergo rigorous training to ensure they deliver exceptional results and exceed your expectations.
 
-## Problem Statement/Opportunity:
+- ** Your Data :** We use eco-friendly and safe cleaning products that are effective in removing dirt, dust, and stains while being gentle on your surfaces and the environment.
 
-**Problem Statement 📝:**
+- **Health Bot for Analysis of Dibetes:** We understand the value of your time, which is why we strive to provide reliable and punctual service. Our team will arrive promptly at the scheduled time and complete the cleaning tasks efficiently.
 
-Many portfolio websites lack engaging and interactive elements, hindering effective communication of the creator's skills and achievements to visitors. This limits the ability to make a strong impression and provide personalized responses to visitors' inquiries, ultimately impacting user engagement.
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- Node Js
+- Express Js
+- Mongo Db 
 
-**Opportunity 🤩:**
-
-Our project seeks to solve this issue by leveraging Microsoft Azure services to develop an interactive chatbot. This chatbot aims to enhance user engagement on portfolio websites by providing real-time assistance. It will offer detailed information about the portfolio owner's work, skills, and background, creating a dynamic and personalized experience. By utilizing AI-driven conversation capabilities, the chatbot will answer queries, highlight portfolio achievements, and seamlessly guide users through the content.
-
-By addressing the problem of static portfolio websites, our chatbot empowers portfolio owners to connect more effectively with their audience, leave a lasting impression, and showcase their work and expertise in a captivating manner.
-
-## Project Description:
-
-**Core Idea 💡:**
-
-Our project aims to address the need for engaging and interactive portfolio websites by developing a chatbot powered by Microsoft Azure services. This chatbot will enhance user experience on portfolio websites, providing real-time assistance and personalized interactions.
-
-**Problem Statement/Opportunity 🔎:**
-
-Many portfolio websites lack interactivity, making it challenging for visitors to connect with the content and understand the creator's skills and achievements effectively. This project seeks to solve this issue by creating a dynamic chatbot that engages visitors, answers their questions, and guides them through the portfolio.
-
-**Solution 🧩:**
-
-Our chatbot, integrated into the portfolio website, leverages Azure's AI capabilities to provide real-time responses to visitor queries. It offers comprehensive information about the portfolio owner's work, skills, and background. Users can interact with it naturally, receiving personalized recommendations and highlights from the portfolio. The chatbot ensures a dynamic and engaging experience, allowing portfolio owners to leave a lasting impression and connect effectively with their audience.
-
-**Alignment with Problem Statement 🔦:**
-
-Our project directly addresses the problem of static and uninspiring portfolio websites. It transforms these websites into interactive platforms, catering to the visitor's need for personalized experiences and instant information access. By enhancing user engagement and interaction, the solution aligns perfectly with the identified problem, making portfolio websites more effective and engaging for both creators and visitors.
-
-## Primary Azure Technologies 🛠️:
-
-![Azure Bot Service](./readme_images/azure-services.png)
+## Azure Technologies Used
+- Azure Static Web Apps
+- Azure Bot Service
+- Azure Health Bot Service
+- Azure Storage
 
 # Breakdowns of Azure Technologies 📊:
 
-## Azure AI Language Services 🗣️
-
-![Azure Language Studio](./readme_images/azure-language-studio.png)
-
-- I have used Azure's AI Language Services and Azure Language Studio to develop the knowledge base for the chatbot.
-- The knowledge base contains information about the portfolio owner's work, skills, and background.
-- It also includes responses to frequently asked questions.
-- The knowledge base is used by the chatbot to answer visitor queries and provide personalized recommendations.
 
 ## Azure Bot Service 🤖
 
@@ -82,4 +61,36 @@ Our project directly addresses the problem of static and uninspiring portfolio w
 - Azure Blob Storage is used to store the knowledge base for the chatbot.
 - I have created many containers to store the website images, chatbot images and the knowledge base files.
 
-<center>Made with ❤️ by Alok Tamrakar </center>
+## Screen Shots of the Website
+### Home Page
+![image](https://github.com/nagasrikotha/ShineMasters-FRT_Project/assets/101505094/bd635a10-d651-4005-9c72-feb82189eb55)
+
+### About Page
+![image](https://github.com/nagasrikotha/ShineMasters-FRT_Project/assets/101505094/9f9f80f1-0d28-4e06-8e65-6472af723ab9)
+![image](https://github.com/nagasrikotha/ShineMasters-FRT_Project/assets/101505094/d2c1c3d9-014d-4439-a7b0-175fe82d7268)
+
+### Our Team 
+![image](https://github.com/nagasrikotha/ShineMasters-FRT_Project/assets/101505094/957cdf95-18f4-432a-b053-16b635d4dc4a)
+
+### Blog Page
+![image](https://github.com/nagasrikotha/ShineMasters-FRT_Project/assets/101505094/0d411b6f-28bc-40f7-9e3a-7ec3cb1931d3)
+
+### Offers Page
+![image](https://github.com/nagasrikotha/ShineMasters-FRT_Project/assets/101505094/62cab978-55ce-46ed-ba2f-046737072316)
+
+### Gallery Page
+![image](https://github.com/nagasrikotha/ShineMasters-FRT_Project/assets/101505094/093a71cc-e818-4d5b-8e7a-8fa0b18b7426)
+
+### Contact Page
+![image](https://github.com/nagasrikotha/ShineMasters-FRT_Project/assets/101505094/4f26b88b-7b57-4ff5-b831-e1bc0f050ea5)
+
+### ShineBot (Chatbot) Page
+
+
+
+
+## Acknowledgements
+I would like to express my sincere gratitude to Future Ready Talent, GitHub, and Microsoft Azure for providing me with the opportunity to work on this project.
+
+##
+Thank you for your interest in ShineMasters.
