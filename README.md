@@ -1,6 +1,6 @@
 # Medistop (One stop for all medineeds) 
 Medistop  is a website which is developed as part of **Future Ready Talent Internship**. 
- MediStop – One Stop For All MediNeeds is a healthcare tool  for ease of patients and to enhance the their way of living. Patients can store all there past history like medical certificates, report, medicinal information and many more in our website without any worry of losing anything. MediStop also provide Appointment System using which patients can book the appointment with doctors with there own preferred time slot and day. Gone the time when we need to sit in long queues for our number to come, now you have MediStop to do it all. Also, MediStop lists all the schemes, programs, NGO’s motives, and many more at one place to help economically unhealthy users to get the treatment for free or in as low cost as possible. And the USP of MediStop is the Diet Suggestion Algorithm , using which patient can know best diet for them and the add-ons require in there current diet.
+ MediStop – One Stop For All MediNeeds is a healthcare tool  for ease of patients and to enhance the their way of living. 
 
 **Project Link:** https://ashy-pond-08a39cc00.3.azurestaticapps.net
 
@@ -8,13 +8,13 @@ Medistop  is a website which is developed as part of **Future Ready Talent Inter
 
 ## Key Features
 
-- **Appointment System :** We offer customized cleaning packages to cater to your unique requirements. From general cleaning to specialized services like carpet cleaning, window cleaning, and more, we ensure every nook and corner is thoroughly cleaned.
+- **Appointment System :** MediStop provide Appointment System using which patients can book the appointment with doctors with there own preferred time slot and day. Gone the time when we need to sit in long queues for our number to come, now you have MediStop to do it all.
 
-- **List of schemes :** Our team of cleaning specialists is highly skilled and experienced. They undergo rigorous training to ensure they deliver exceptional results and exceed your expectations.
+- **List of schemes :** MediStop lists all the schemes, programs, NGO’s motives, and many more at one place to help economically unhealthy users to get the treatment for free or in as low cost as possible.
 
-- ** Your Data :** We use eco-friendly and safe cleaning products that are effective in removing dirt, dust, and stains while being gentle on your surfaces and the environment.
+- ** Your Data :** Patients can store all there past history like medical certificates, report, medicinal information and many more in our website without any worry of losing anything. 
 
-- **Health Bot for Analysis of Dibetes:** We understand the value of your time, which is why we strive to provide reliable and punctual service. Our team will arrive promptly at the scheduled time and complete the cleaning tasks efficiently.
+- **Health Bot for Analysis of Dibetes:**  Using this boat patient can analyze their diabetic conditions whether on the basis of his/her bmi data . It is health bot for ease the life of patients. 
 
 ## Technologies Used
 - HTML
@@ -36,7 +36,7 @@ Medistop  is a website which is developed as part of **Future Ready Talent Inter
 
 ## Azure Bot Service 🤖
 
-![Azure Bot Service](./readme_images/azure-bot-service.png)
+![Azure Health Bot Service](./readme_images/azure-bot-service.png)
 
 - I have used Azure Bot Service to create the chatbot.
 - The chatbot is integrated into the portfolio website, allowing visitors to interact with it and receive real-time responses.
@@ -93,4 +93,4 @@ Medistop  is a website which is developed as part of **Future Ready Talent Inter
 I would like to express my sincere gratitude to Future Ready Talent, GitHub, and Microsoft Azure for providing me with the opportunity to work on this project.
 
 ##
-Thank you for your interest in ShineMasters.
+Thank you for your interest in Medistop .
