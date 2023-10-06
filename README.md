@@ -46,8 +46,7 @@ Medistop  is a website which is developed as part of **Future Ready Talent Inter
 - It is also connected to the knowledge base, enabling it to answer visitor queries and provide personalized recommendations.
 - The chatbot is deployed using Azure App Service.
 - This ChatBot can be integrated with any channel like Telegram, Slack and any custom application. I have used `Direct Line 🌐` channel to integrate with my portfolio website.
-  ![Azure Bot channels](./readme_images/azure-health-boat2.png)
-
+ 
 ## Azure App Service 📱:
 
 ![Azure App Service](./readme_images/azure-service.png)
@@ -75,7 +74,7 @@ Medistop  is a website which is developed as part of **Future Ready Talent Inter
 ![image](./readme_images/schemes.png)
 
 ### Appointment Page
-![image](./readme_images/appointmen.png)
+![image](./readme_images/appointment.png)
 
 ### Your Data Page
 ![image](./readme_images/yourdata.png)
@@ -83,8 +82,6 @@ Medistop  is a website which is developed as part of **Future Ready Talent Inter
 ### Testimonial Page
 ![image]![Alt text](./readme_images/Testomonial.png)
 
-### About-page2 Page
-![image](./readme_images/about-page2.png)
 
 ### Index page 
 ![image](./readme_images/index-page.png)
