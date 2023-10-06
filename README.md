@@ -42,17 +42,19 @@ Medistop  is a website which is developed as part of **Future Ready Talent Inter
 ![Azure Health Bot Service](./readme_images/azure-health-bot.png)
 
 - I have used Azure Bot Service to create the chatbot.
-- The chatbot is integrated into the portfolio website, allowing visitors to interact with it and receive real-time responses.
-- It is also connected to the knowledge base, enabling it to answer visitor queries and provide personalized recommendations.
+- The chatbot is mainly used to find your diabetic condition according to your Bmi , allowing patient to get quick response.
+- It is based on your bmi so this information may be true. 
+- 
+- It does not give accurate data.
 - The chatbot is deployed using Azure App Service.
-- This ChatBot can be integrated with any channel like Telegram, Slack and any custom application. I have used `Direct Line 🌐` channel to integrate with my portfolio website.
+
  
 ## Azure App Service 📱:
 
 ![Azure App Service](./readme_images/azure-service.png)
 
 - I have used Azure App Service to deploy the chatbot.
-- The chatbot is deployed as a web app, allowing it to be integrated into the portfolio website.
+- The chatbot is deployed as a web app, allowing it to be integrated into the medistop website.
 - There are various app service plans like `Free`, `Standard` and `Premium` etc. I am using the free one to deploy my chatbot.
 
 ## Azure Blob Storage 🗄️
