@@ -2,7 +2,7 @@
 Medistop  is a website which is developed as part of **Future Ready Talent Internship**. 
  MediStop – One Stop For All MediNeeds is a healthcare tool  for ease of patients and to enhance the their way of living. 
 
-**Project Link:** https://ashy-pond-08a39cc00.3.azurestaticapps.net
+**Project Link:** https://medistoprender.onrender.com/home
 
 **Project Demo Link:** https://youtu.be/3OJrbLbaUHs
 
@@ -39,23 +39,22 @@ Medistop  is a website which is developed as part of **Future Ready Talent Inter
 
 ## Azure Bot Service 🤖
 
-![Azure Health Bot Service](./readme_images/azure-bot-service.png)
+![Azure Health Bot Service](./readme_images/azure-health-bot.png)
 
 - I have used Azure Bot Service to create the chatbot.
 - The chatbot is integrated into the portfolio website, allowing visitors to interact with it and receive real-time responses.
 - It is also connected to the knowledge base, enabling it to answer visitor queries and provide personalized recommendations.
 - The chatbot is deployed using Azure App Service.
 - This ChatBot can be integrated with any channel like Telegram, Slack and any custom application. I have used `Direct Line 🌐` channel to integrate with my portfolio website.
-  ![Azure Bot channels](./readme_images/azure-bot-channels.png)
+  ![Azure Bot channels](./readme_images/azure-health-boat2.png)
 
 ## Azure App Service 📱:
 
-![Azure App Service](./readme_images/azure-app-service.png)
+![Azure App Service](./readme_images/azure-service.png)
 
 - I have used Azure App Service to deploy the chatbot.
 - The chatbot is deployed as a web app, allowing it to be integrated into the portfolio website.
 - There are various app service plans like `Free`, `Standard` and `Premium` etc. I am using the free one to deploy my chatbot.
-  ![Azure App Service Plans](./readme_images/azure-app-service-plans.png)
 
 ## Azure Blob Storage 🗄️
 
@@ -66,28 +65,29 @@ Medistop  is a website which is developed as part of **Future Ready Talent Inter
 
 ## Screen Shots of the Website
 ### Home Page
-![image](https://github.com/nagasrikotha/ShineMasters-FRT_Project/assets/101505094/bd635a10-d651-4005-9c72-feb82189eb55)
+![image](./readme_images/HomePage.png)
 
 ### About Page
-![image](https://github.com/nagasrikotha/ShineMasters-FRT_Project/assets/101505094/9f9f80f1-0d28-4e06-8e65-6472af723ab9)
-![image](https://github.com/nagasrikotha/ShineMasters-FRT_Project/assets/101505094/d2c1c3d9-014d-4439-a7b0-175fe82d7268)
+![image](./readme_images/about-page.png)
+![image](./readme_images/about-page2.png)
 
-### Our Team 
-![image](https://github.com/nagasrikotha/ShineMasters-FRT_Project/assets/101505094/957cdf95-18f4-432a-b053-16b635d4dc4a)
+### Schemes Page
+![image](./readme_images/schemes.png)
 
-### Blog Page
-![image](https://github.com/nagasrikotha/ShineMasters-FRT_Project/assets/101505094/0d411b6f-28bc-40f7-9e3a-7ec3cb1931d3)
+### Appointment Page
+![image](./readme_images/appointmen.png)
 
-### Offers Page
-![image](https://github.com/nagasrikotha/ShineMasters-FRT_Project/assets/101505094/62cab978-55ce-46ed-ba2f-046737072316)
+### Your Data Page
+![image](./readme_images/yourdata.png)
 
-### Gallery Page
-![image](https://github.com/nagasrikotha/ShineMasters-FRT_Project/assets/101505094/093a71cc-e818-4d5b-8e7a-8fa0b18b7426)
+### Testimonial Page
+![image]![Alt text](./readme_images/Testomonial.png)
 
-### Contact Page
-![image](https://github.com/nagasrikotha/ShineMasters-FRT_Project/assets/101505094/4f26b88b-7b57-4ff5-b831-e1bc0f050ea5)
+### About-page2 Page
+![image](./readme_images/about-page2.png)
 
-### ShineBot (Chatbot) Page
+### Index page 
+![image](./readme_images/index-page.png)
 
 
 
